@@ -13,6 +13,6 @@ return function(str = 'special'){
 }
 
 const Calculator = {
-  add: function(a,b){return`${a}+${b}`},
+  add: function(a,b){return a+b},
 
 };
