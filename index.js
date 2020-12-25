@@ -10,5 +10,5 @@ function wrapAdjective() {
   let inner = function(str = 'special'){
     return `You are ${str}`
   }
-  inner(st='*')
+  inner(str='*')
 }
