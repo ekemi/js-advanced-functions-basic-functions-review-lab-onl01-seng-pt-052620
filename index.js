@@ -12,5 +12,7 @@ return function(str = 'special'){
   }
 }
 
-let calculator = {};
-let JavaScript = calculator;
+let calculator = {
+  add: function(){return`1+3`}
+};
+
