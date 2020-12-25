@@ -6,8 +6,8 @@ function saturdayFun(str = "roller-skate"){
 let mondayWork=function(str="go to the office"){
   return (`This Monday, I will ${str}.`)
 }
-function wrapAdjective(str ='*') {
+function wrapAdjective(s='*') {
   return let inner = function(str = 'special'){
-    return `You are ${str}`
+    return `You are ${s}`
   }
 }
