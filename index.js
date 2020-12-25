@@ -20,6 +20,8 @@ const Calculator = {
 };
 
 function actionApplyer(s, arr){
-  if (arr.length == 0) {return s}
-  else (arr.forEach(value=>value(s)))
+  for (let i = 0; arr.length <=0; i++ ){
+    start = arr[i](s)
+  }
+  return start
 }
