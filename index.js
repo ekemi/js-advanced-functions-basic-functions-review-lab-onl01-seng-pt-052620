@@ -14,5 +14,5 @@ return function(str = 'special'){
 
 let calculator = {
   add: function(a,b){return`${a}+${b}`},
-  
+
 };
