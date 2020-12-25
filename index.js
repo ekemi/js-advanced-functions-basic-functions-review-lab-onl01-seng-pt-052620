@@ -13,5 +13,6 @@ return function(str = 'special'){
 }
 
 let calculator = {
-  add: function(){return`1+3`}
+  add: function(a,b){return`${a}+${b}`},
+  
 };
