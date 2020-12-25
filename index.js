@@ -21,7 +21,7 @@ const Calculator = {
 
 function actionApplyer(s, arr){
   for (let i = 0; i<arr.length; i++ ){
-    start = arr[i](start)
+    s = arr[i](s)
   }
-  return start
+  return s
 }
