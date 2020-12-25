@@ -11,3 +11,5 @@ return function(str = 'special'){
     return `You are ${s}${str}${s}!`
   }
 }
+
+let calculator = {};
