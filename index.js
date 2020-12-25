@@ -13,3 +13,4 @@ return function(str = 'special'){
 }
 
 let calculator = {};
+let JavaScript = calculator;
