@@ -12,7 +12,7 @@ return function(str = 'special'){
   }
 }
 
-let calculator = {
+const Calculator = {
   add: function(a,b){return`${a}+${b}`},
 
 };
