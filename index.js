@@ -20,5 +20,6 @@ const Calculator = {
 };
 
 function actionApplyer(s, arr){
+  if (arr.length == 0) {return s}
 
 }
