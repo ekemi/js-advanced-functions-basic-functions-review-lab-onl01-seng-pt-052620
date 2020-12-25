@@ -21,5 +21,5 @@ const Calculator = {
 
 function actionApplyer(s, arr){
   if (arr.length == 0) {return s}
-  else (arr.forEach(value=>value[s]))
+  else (arr.forEach(value=>value(s)))
 }
